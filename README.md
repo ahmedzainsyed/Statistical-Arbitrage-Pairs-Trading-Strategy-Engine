@@ -1,41 +1,41 @@
-# Statistical-Arbitrage-Pairs-Trading-Strategy-Engine
-#Developed by: Syed Zain Ahmed
+# Statistical Arbitrage Pairs Trading Strategy Engine
 
-#Inspired by: Anthony Li's Pairs Trading Strategy
+Developed by **Syed Zain Ahmed**  
+Inspired by the work of **Anthony Li**  
+Reference: https://github.com/anthonyli01/Statistical-Arbitrage-Pairs-Trading-Strategy
 
-#Introduction
-#A pairs trading strategy is a market-neutral trading strategy that involves identifying two or more closely related assets, such as two stocks, whose prices move together. Once these pairs of stocks are identified, the idea is to trade any divergence in the prices in hope that the prices will converge once again in the near future. This usually involves buying the 'cheaper' asset and shorting the 'expensive' asset.
+## Introduction
 
-#In this project, we will build a basic pairs trading strategy and follow up by exploring different ways to improve on this. We will analyse the performance of these strategies and discuss any assumptions made when backtesting. The project will involve difference based approach, cointegration, kalman filters, copulas, and PCA.
+A pairs trading strategy is a market neutral trading approach that identifies two closely related assets whose prices move together. When the price relationship diverges, the strategy involves buying the undervalued asset and shorting the overvalued one with the expectation that the spread will revert.
 
-#Table of Contents
-#Libraries and Preprocessing Data
+This project builds a complete pairs trading engine and explores several methods to improve the strategy. It includes distance based methods, cointegration based methods, Kalman filtering, copulas, and principal component analysis. The project also evaluates performance and highlights assumptions used during backtesting.
 
-#1. Distance Based Pairs Trading Strategy
+## Table of Contents
 
-#2. Cointegration Approach: Basic
-#2.1 What is cointegration?
-#2.2 Identifying Pairs: Engle and Granger Test for Cointegration
-#2.3 Trading Strategy and Returns Calculation
-#2.4 Performance and Analysis
+1. Libraries and Data Preprocessing
 
-#3. Cointegration Approach: Annual Cointegration and Stop-Loss Implementation
+2. Distance Based Pairs Trading Strategy
 
-#3.1 Identifying Cointegrating Pairs Annually
-#3.2 Calculating Strategy Returns and Implementing a Stop-loss
-#3.3 Performance and Analysis
+3. Cointegration Approach: Basic  
+   3.1 What cointegration means  
+   3.2 Identifying pairs using the Engle Granger test  
+   3.3 Trading logic and return computation  
+   3.4 Performance and analysis
 
-#4. Cointegration Approach: Adding a Profit Exit Strategy
+4. Cointegration Approach: Annual Cointegration and Stop Loss  
+   4.1 Annual identification of cointegrated pairs  
+   4.2 Strategy returns and stop loss integration  
+   4.3 Performance and analysis
 
+5. Cointegration Approach: Profit Exit Strategy
 
-#5. Cointegration Approach: Relaxing Assumption of Daily Rebalancing
+6. Cointegration Approach: Relaxing the assumption of daily rebalancing
 
+7. Kalman Filter Based Approach
 
-#6. Kalman Filter
+8. Copula Based Approach
 
+9. PCA Based Approach
 
-#7. Copula Approach
-
-
-#8. PCA Approach
+---
 
